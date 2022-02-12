@@ -4,6 +4,10 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const title = (
+  <p class="font-mono font-bold type-2xl text-center">FloaType</p>,
+  );
+
 ReactDOM.render(
   title,
   document.getElementById('root')
@@ -13,7 +17,3 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-const title = (
-  <p class="font-mono font-bold type-2xl text-center">FloaType</p>,
-  )
