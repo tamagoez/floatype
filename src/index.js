@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const title = (
   <p class="font-mono font-bold type-2xl text-center">FloaType</p>,
-  );
+);
 
 ReactDOM.render(
   title,
