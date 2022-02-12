@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <p class="font-mono font-bold type-2xl text-center">FloaType</p>
+  <p class="font-mono font-bold type-2xl text-center">FloaType</p>,
   document.getElementById('root')
 );
 
