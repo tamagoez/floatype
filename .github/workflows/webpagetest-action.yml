@@ -1,0 +1,24 @@
+on:
+  push
+  pull_request
+    # The branches below must be a subset of the branches above
+  schedule:
+    - cron: '43 21 * * 5'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: WebPageTest Action
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - name: WebPageTest
+        uses: WPO-Foundation/webpagetest-github-action@main
+        with:
+          apiKey: ${{ secrets.WPT_API_KEY }}
+          urls: |
+            https://example.com/
+            https://example.com/about
+          label: 'GitHub Action Test'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
