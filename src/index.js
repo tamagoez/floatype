@@ -5,15 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const title = (
-  return (
-    <p class="font-mono font-bold type-2xl text-center">FloaType</p>
-  )
+  <p class="font-mono font-bold type-2xl text-center">FloaType</p>
 );
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <title />
   </React.StrictMode>,
   document.getElementById('root')
 );
