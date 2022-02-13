@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const title = return (
+const title = (
   <p class="font-mono font-bold type-2xl text-center">FloaType</p>
 );
 
 ReactDOM.render(
   title,
+  App,
   document.getElementById('root')
 );
 
