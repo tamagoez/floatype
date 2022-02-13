@@ -4,7 +4,7 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const title = (
+const title = return (
   <p class="font-mono font-bold type-2xl text-center">FloaType</p>
 );
 
